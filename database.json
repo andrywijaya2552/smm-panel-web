@@ -1,0 +1,269 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "username": "admin",
+      "password": "admin123",
+      "fullName": "Super Administrator",
+      "role": "admin",
+      "balance": 10000000,
+      "createdAt": "2026-10-08T12:05:25.140Z"
+    },
+    {
+      "id": "user_demo",
+      "username": "demo_user",
+      "password": "password123",
+      "fullName": "Demo Member",
+      "role": "member",
+      "balance": 50000,
+      "createdAt": "2026-10-08T12:05:25.141Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "icon": "ri-instagram-line"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "icon": "ri-tiktok-line"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "icon": "ri-youtube-line"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "icon": "ri-facebook-circle-line"
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter / X",
+      "icon": "ri-twitter-x-line"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "icon": "ri-telegram-line"
+    }
+  ],
+  "services": [
+    {
+      "id": "ig-fol-1",
+      "category": "instagram",
+      "name": "Instagram Followers Server HQ [Refill 30 Hari]",
+      "min": 100,
+      "max": 100000,
+      "pricePer1k": 12500,
+      "description": "Followers Akun Campuran Kualitas Tinggi, Proses Cepat, Bergaransi Refill 30 Hari."
+    },
+    {
+      "id": "ig-like-1",
+      "category": "instagram",
+      "name": "Instagram Likes Real HQ [Instant]",
+      "min": 50,
+      "max": 50000,
+      "pricePer1k": 4500,
+      "description": "Likes Instant Real HQ, Start 0-5 menit, Maksimal 50k per postingan."
+    },
+    {
+      "id": "ig-view-1",
+      "category": "instagram",
+      "name": "Instagram Video / Reels Views [Super Fast]",
+      "min": 500,
+      "max": 1000000,
+      "pricePer1k": 1500,
+      "description": "Views Reels/Video super cepat, membantu postingan masuk Explore."
+    },
+    {
+      "id": "tt-fol-1",
+      "category": "tiktok",
+      "name": "TikTok Followers Indonesia Real [Garansi]",
+      "min": 100,
+      "max": 50000,
+      "pricePer1k": 24000,
+      "description": "Followers akun berbobot, cocok untuk syarat live streaming TikTok."
+    },
+    {
+      "id": "tt-like-1",
+      "category": "tiktok",
+      "name": "TikTok Likes Video HQ [Instant]",
+      "min": 100,
+      "max": 100000,
+      "pricePer1k": 5500,
+      "description": "Meningkatkan interaksi video FYP dengan cepat dan aman."
+    },
+    {
+      "id": "tt-view-1",
+      "category": "tiktok",
+      "name": "TikTok Views FYP Booster [Speed 100k/Jam]",
+      "min": 1000,
+      "max": 10000000,
+      "pricePer1k": 800,
+      "description": "Tingkatkan viewers FYP dalam hitungan menit."
+    },
+    {
+      "id": "yt-sub-1",
+      "category": "youtube",
+      "name": "YouTube Subscribers [Non Drop - Garansi Refill]",
+      "min": 50,
+      "max": 20000,
+      "pricePer1k": 145000,
+      "description": "Subscribers kualitas premium, aman untuk syarat monetisasi YouTube."
+    },
+    {
+      "id": "yt-view-1",
+      "category": "youtube",
+      "name": "YouTube Views Monetizable High Retention",
+      "min": 500,
+      "max": 500000,
+      "pricePer1k": 28000,
+      "description": "Retention tontonan tinggi, aman untuk syarat jam tayang & monet."
+    },
+    {
+      "id": "tele-mem-1",
+      "category": "telegram",
+      "name": "Telegram Channel / Group Members HQ",
+      "min": 100,
+      "max": 50000,
+      "pricePer1k": 15000,
+      "description": "Tambah anggota channel/group Telegram aktif dan stabil."
+    }
+  ],
+  "payments": [
+    {
+      "id": "qris",
+      "name": "QRIS All Payment (Gopay/Dana/OVO/BCA/ShopeePay)",
+      "type": "qris",
+      "accountNumber": "SCAN_QR_IMAGE",
+      "accountName": "NUSA SMM STORE",
+      "qrImage": "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=00020101021126570011ID.DANA.WWW01189360091800000000005204581253033605802ID5914NUSASMM_PAY6007JAKARTA6304C29B",
+      "minDeposit": 5000,
+      "instruction": "Scan kode QRIS menggunakan aplikasi E-Wallet atau M-Banking apapun. Masukkan nominal tepat, lalu transfer. Simpan bukti transfer untuk konfirmasi."
+    },
+    {
+      "id": "dana",
+      "name": "DANA E-Wallet",
+      "type": "ewallet",
+      "accountNumber": "085812345678",
+      "accountName": "Admin SMM Official",
+      "qrImage": null,
+      "minDeposit": 5000,
+      "instruction": "Transfer ke nomor DANA di atas. Cantumkan Username kamu pada catatan transfer jika memungkinkan."
+    },
+    {
+      "id": "gopay",
+      "name": "GoPay E-Wallet",
+      "type": "ewallet",
+      "accountNumber": "085812345678",
+      "accountName": "Admin SMM Official",
+      "qrImage": null,
+      "minDeposit": 5000,
+      "instruction": "Transfer ke nomor GoPay di atas. Simpan bukti transfer untuk verifikasi."
+    },
+    {
+      "id": "bca",
+      "name": "Bank BCA",
+      "type": "bank",
+      "accountNumber": "8735019281",
+      "accountName": "PT NUSA SMM DIGITAL",
+      "qrImage": null,
+      "minDeposit": 10000,
+      "instruction": "Transfer ke nomor Rekening BCA di atas. Pastikan nominal sesuai dengan tiket topup."
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "userId": "user_demo",
+      "username": "demo_user",
+      "serviceId": "ig-fol-1",
+      "serviceName": "Instagram Followers Server HQ [Refill 30 Hari]",
+      "target": "https://instagram.com/official_demo",
+      "quantity": 1000,
+      "price": 12500,
+      "status": "Success",
+      "remains": 0,
+      "startCount": 1420,
+      "createdAt": "2026-10-08T07:05:25.141Z"
+    }
+  ],
+  "topups": [
+    {
+      "id": "DEP-5001",
+      "userId": "user_demo",
+      "username": "demo_user",
+      "paymentMethod": "QRIS All Payment",
+      "amount": 50000,
+      "uniqueCode": 124,
+      "totalPay": 50124,
+      "proofUrl": "",
+      "notes": "Top up demo member saldo awal",
+      "status": "Approved",
+      "createdAt": "2026-10-07T12:05:25.142Z",
+      "approvedAt": "2026-10-07T13:05:25.142Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Selamat Datang di SMM Panel Official!",
+      "content": "Nikmati layanan Social Media Marketing termurah, terlengkap, dan tercepat dengan proses otomatis!",
+      "date": "2026-10-08T12:05:25.142Z"
+    }
+  ],
+  "vouchers": [
+    {
+      "code": "DISKON50",
+      "type": "percent",
+      "discount": 50,
+      "maxDiscount": 10000,
+      "minOrder": 5000,
+      "usageLimit": 100,
+      "usedCount": 0,
+      "isActive": true
+    },
+    {
+      "code": "PROMO10K",
+      "type": "fixed",
+      "discount": 10000,
+      "maxDiscount": 10000,
+      "minOrder": 20000,
+      "usageLimit": 50,
+      "usedCount": 0,
+      "isActive": true
+    },
+    {
+      "code": "NUSANEW",
+      "type": "percent",
+      "discount": 25,
+      "maxDiscount": 15000,
+      "minOrder": 5000,
+      "usageLimit": 500,
+      "usedCount": 0,
+      "isActive": true
+    }
+  ],
+  "chats": [
+    {
+      "id": "msg_1791463311327_199",
+      "senderId": "user_admin",
+      "senderName": "Admin NusaSMM Support",
+      "role": "admin",
+      "message": "Halo",
+      "createdAt": "2026-10-08T12:41:51.327Z"
+    },
+    {
+      "id": "msg_1791463447994_917",
+      "senderId": "user_admin",
+      "senderName": "Super Administrator",
+      "role": "admin",
+      "message": "Halo kak",
+      "createdAt": "2026-10-08T12:44:07.994Z"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "smm-panel-web",
+  "version": "1.0.0",
+  "description": "Website SMM Panel Sosmed Modern dengan Fitur Auth, Topup Manual, Order Layanan, dan Admin Panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
